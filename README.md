@@ -14,7 +14,11 @@
 - Dentro do GitHub clique em "New SSH Key";
 - Adicione um título qualquer(Off: eu coloco sempre alguma informação que me ajude a identificar o local de onde eu estou utilizando, tipo: Casa, Trabalho, Faculdade..);
 - Por fim, cole abaixo o conteúdo do id_rsa e clique em "Add SSH key";
-- Você deverá receber um e-mail informando que a chave foi adicionada à sua conta do GitHub, com isto, você já pode começar a subir seus projetos.
+- Você deverá receber um e-mail informando que a chave foi adicionada à sua conta do GitHub;
+- Configure no git seu e-mail e nome com os comandos: 
+  git config --global user.email "seuEmail"
+  git config --global user.name "seuNome"
+- Após isto, o Git está pronto para ser utilizado.
 
 ## Subindo um arquivo/ projeto
 Caso você ainda esteja começando o projeto, eu irei mostrar como eu faço;
